@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+:root {
+    --polynesian-blue: rgb(11, 69, 142);
+    --vista-blue: rgb(128, 146, 198);
+    --ash-gray: rgb(253, 240, 213);
+    --papaya-whip: rgb(198, 216, 211);
+    --chamoisse: rgb(166, 117, 72);
+
+    --background-color: var(--vista-blue);
+    --text-color: var(--ash-gray);
+    --accent-color: var(--papaya-whip);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    color: var(--text-color);
+    font-size: 2rem;
+
+    background-color: var(--chamoisse);
+
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border-color: var(--polynesian-blue);
+    border-width: 0.2rem;
+
+}
+
