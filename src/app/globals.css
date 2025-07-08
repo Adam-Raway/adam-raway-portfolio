@@ -1,60 +1,67 @@
 @import "tailwindcss";
 
 :root {
-    --polynesian-blue: rgb(11, 69, 142);
-    --vista-blue: rgb(128, 146, 198);
-    --ash-gray: rgb(253, 240, 213);
-    --papaya-whip: rgb(198, 216, 211);
-    --chamoisse: rgb(166, 117, 72);
+    /* Palette */
+    --dark-moss-green: #606c38ff;
+    --pakistan-green: #283618ff;
+    --cornsilk: #fefae0ff;
+    --earth-yellow: #dda15eff;
+    --tigers-eye: #bc6c25ff;
 
-    --background-color: var(--vista-blue);
-    --text-color: var(--ash-gray);
-    --accent-color: var(--papaya-whip);
+    --tea-green: #ccd5aeff;
+    --beige: #e9edc9ff;
+    --papaya-whip: #faedcdff;
+    --buff: #d4a373ff;
+
+    /* Semantic colors */
+    --dark-color: var(--pakistan-green);
+    --light-color: var(--dark-moss-green);
+    --off-white: var(--cornsilk);
+    --light-brown: var(--earth-yellow);
+    --dark-brown: var(--tigers-eye);
+
+    --dark-color-faded: var(--tea-green);
+    --light-color-faded: var(--beige);
+    --off-white-faded: var(--cornsilk);
+    --light-brown-faded: var(--papaya-whip);
+    --dark-brown-faded: var(--buff);
 }
 
-/*1 Rem = 16px*/
-
 body {
-    background-color: var(--background-color);
+    background-color: var(--light-color);
     padding-bottom: 2000px;
 }
 
 h1 {
-    padding: 0.5rem;
-    font-size: 2rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0.5rem;
+  font-size: 2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  padding: 0.25rem;
+}
+
+header,
+footer {
+    background-color: var(--dark-color-faded);
+    border-color: var(--dark-color);
+    border-width: 0.1rem;
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
 }
 
 header {
-    background-color: var(--papaya-whip);
-    border-color: var(--polynesian-blue);
-    border-width: 0.1rem;
-
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;                   
+  top: 0rem;
 }
 
 footer {
-    background-color: var(--papaya-whip);
-    border-color: var(--polynesian-blue);
-    border-width: 0.1rem;
-
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  bottom: 0rem;
 }
 
 .navBar {
@@ -62,18 +69,13 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-
   list-style: none;
-
-  min-width: 20rem;       /* prevents it from collapsing too much */
-  max-width: 40rem;       /* prevents it from overflowing */
-  flex: 1;            /* grow to fill remaining space */
-  margin-left: auto;      /* aligns it to the right in parent flexbox */
+  min-width: 20rem;
+  max-width: 40rem;
+  margin-left: auto;
+  width: 100%;
 }
 
-@media all and (max-width: 45rem) {
-  .navBar {
-    flex-direction: column;
-    align-items: center; /* optional: center nav items vertically */
-  }
+main {
+  padding-top: 3rem;
 }

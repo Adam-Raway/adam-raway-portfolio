@@ -1,5 +1,8 @@
-import Image from "next/image";
-import Button from "./components/Button"
+import "./styles/homepage.css";
+
+// Toggle this line on/off as needed
+// import "./styles/debugging.css";
+
 
 export default function Home() {
   return (
@@ -34,8 +37,12 @@ export default function Home() {
         {/*
           About Me
         */}
-        <section>
-
+        <section className="aboutMe">
+          <p>Here is some text about me!</p>
+          <img className="profilePic"
+            src="/profile-picture.jpg"
+            alt="A portrait photo of me in front of some trees."
+          ></img>
         </section>
         
         {/*
