@@ -24,8 +24,8 @@ export default function Home() {
             publications page, contact me page. Any other ideas?
           */}
           <Link href="/..">Home</Link>
+          <Link href="/resume">Resume</Link>
           <Link href="/projects_experience">Projects & Experience</Link>
-          <Link href="/publications">Publications</Link>
           <Link href="/contact">Contact Me</Link>
         </nav>
       </header>

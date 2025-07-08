@@ -39,7 +39,11 @@ export default function Home() {
           About Me
         */}
         <section className="about-me">
-          <p>Here is some text about me!</p>
+          <p>
+            I’m a CS student at UofT curious about how people work with AI. Currently, I am working as a Data Analyst at Ensminger Lab and serving as a Publishing Associate at UofT AI, where I work on data-driven problems while honing my ability to communicate across disciplines.
+
+            I’m especially interested in challenges at the intersection of data, intelligence, and human behavior. On the technical side, I’ve worked with Python, C, React, Typescript, SQL, and ML tools like PyTorch to build various projects ranging from forest analysis automation pipelines to personal builds like an ocean ecosystem simulation. I also enjoy researching and writing about the impacts of LLMs on education, whether through published articles or research summaries.
+          </p>
           <img className="about-me__image"
             src="/profile-picture.jpg"
             alt="Portrait of Adam Raway used for personal branding."
