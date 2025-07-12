@@ -39,12 +39,12 @@ export default function Home() {
           About Me
         */}
         <section className="about-me">
-          <p>
+          <p className="about-me__work-text">
             I’m a CS student at UofT curious about how people work with AI. Currently, I am working as a Data Analyst at Ensminger Lab and serving as a Publishing Associate at UofT AI, where I work on data-driven problems while honing my ability to communicate across disciplines.
 
             I’m especially interested in challenges at the intersection of data, intelligence, and human behavior. On the technical side, I’ve worked with Python, C, React, Typescript, SQL, and ML tools like PyTorch to build various projects ranging from forest analysis automation pipelines to personal builds like an ocean ecosystem simulation. I also enjoy researching and writing about the impacts of LLMs on education, whether through published articles or research summaries.
           </p>
-          <img className="about-me__image"
+          <img className="about-me__portrait"
             src="/profile-picture.jpg"
             alt="Portrait of Adam Raway used for personal branding."
           ></img>
@@ -53,8 +53,37 @@ export default function Home() {
         {/*
           Outside of Work
         */}
-        <section>
-          
+        <section className="about-me">
+          <div className="hobby">
+            <h2>Reading</h2>
+            <div className="hobby__content">
+              <p className="hobby__text">
+
+              </p>
+            </div>
+          </div>
+          <div className="hobby">
+            <h2>Bouldering</h2>
+            <div className="hobby__content">
+              <p className="hobby__text">
+                
+              </p>
+
+              {/* TODO: Get the bouldering image of you falling. */}
+              <img className="hobby__image"
+                src="/bouldering-img.jpg"
+                alt="Photo of Adam falling off a bouldering wall."
+              ></img>
+            </div>
+          </div>
+          <div className="hobby">
+            <h2>Formula 1</h2>
+            <div className="hobby__content">
+              <p className="hobby__text">
+                
+              </p>
+            </div>
+          </div>
         </section>
 
         {/*

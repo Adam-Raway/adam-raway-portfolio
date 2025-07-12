@@ -7,10 +7,58 @@
   margin-top: 2rem;
 }
 
-.about-me__image {
-  max-width: 10rem;
-  border-radius: 10%;
-  background-color: var(--light-brown);;
+/* TODO: Figure out why this column-reverse is not working. */
+@media all and (max-width: 60rem) {
+  .about-me {
+    flex-direction: column-reverse;
+    align-content: center;
+  }
 }
 
+.about-me__portrait {
+  max-width: 10rem;
+  background-color: var(--light-brown);
+  
+  border-radius: 1rem;
+  border-width: 0.5rem;
+  border-color: var(--light-brown);
+}
 
+.about-me__work-text {
+  border-width: 0.5rem;
+  border-color: var(--light-brown);
+  border-radius: 1rem;
+
+  max-width: 50rem;
+
+  background-color: var(--light-brown-faded);
+}
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-width: 0.5rem;
+  border-color: rgb(92, 152, 176);
+  background-color: skyblue;
+}
+
+h2 {
+  font-size: 1.5rem;
+  
+}
+
+/* TODO: Implement the hobbies skeleton. */
+
+.hobby__content {
+
+}
+
+.hobby__text {
+
+}
+
+.hobby__image {
+
+}
