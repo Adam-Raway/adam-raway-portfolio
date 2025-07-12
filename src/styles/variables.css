@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+    /* Palette */
+    --electric-blue: #64e9eeff;
+    --midnight-green: #093a3eff;
+    --french-blue: #0d7ad4ff;
+    --rich-black: #001011ff;
+    --chamoisee: #966919;
+
+    --tiffany-blue: #8fd1d3ff;
+    --dark-slate-gray: #224e51ff;
+    --steel-blue: #4285bbff;
+    --gunmetal: #0d2f34ff;
+    --beaver: #ab9684ff;
+
+    /* Semantic colors */
+    --main-color: var(--french-blue);
+    --main-color-dark: var(--midnight-green);
+    --main-color-light: var(--electric-blue);
+    --accent-color: var(--chamoisee);
+    --dark-accent: var(--rich-black);
+
+    --main-color-faded: var(--steel-blue);
+    --main-color-dark-faded: var(--dark-slate-gray);
+    --main-color-light-faded: var(--tiffany-blue);
+    --accent-color-faded: var(--beaver);
+    --dark-accent-faded: var(--gunmetal);
+}
