@@ -17,21 +17,22 @@
 
 .about-me__portrait {
   max-width: 10rem;
-  background-color: var(--light-brown);
+  background-color: var(--main-color-light-faded);
   
   border-radius: 1rem;
   border-width: 0.5rem;
-  border-color: var(--light-brown);
+  border-color: var(--dark-accent);
 }
 
 .about-me__work-text {
   border-width: 0.5rem;
-  border-color: var(--light-brown);
   border-radius: 1rem;
 
   max-width: 50rem;
 
-  background-color: var(--light-brown-faded);
+  border-color: var(--dark-accent);
+  background-color: var(--main-color-dark-faded);
+  color: white;
 }
 
 .hobby {
@@ -40,8 +41,9 @@
   align-items: center;
 
   border-width: 0.5rem;
-  border-color: rgb(92, 152, 176);
-  background-color: skyblue;
+  border-color: var(--dark-accent);
+  background-color: var(--main-color-light-faded);
+  border-radius: 1rem;
 }
 
 h2 {
