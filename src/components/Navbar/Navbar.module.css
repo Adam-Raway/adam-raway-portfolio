@@ -22,8 +22,6 @@
 }
 
 .name {
-  /* Positioning */
-
   /* Box Model */
   padding: 0.5rem;
   margin-right: auto;
@@ -47,9 +45,6 @@
   margin-left: auto;
   width: 100%;
 
-  /* Typography */
-  list-style: none;
-
   /* Visual */
   color: white;
 }
@@ -67,5 +62,9 @@
     /* Positioning */
     flex-direction: column;
     align-items: center;
+  }
+  .name {
+    /* Positioning */
+    margin: auto;
   }
 }

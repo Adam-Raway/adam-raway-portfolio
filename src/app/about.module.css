@@ -1,27 +1,6 @@
-.aboutMe {
-  /* Positioning */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-
-  /* Box Model */
-  padding: 0.5rem;
-  margin-top: 2rem;
-}
-
-/* TODO: Figure out why this column-reverse is not working. */
-@media all and (max-width: 60rem) {
-  .aboutMe {
-    /* Positioning */
-    flex-direction: column-reverse;
-    align-content: center;
-  }
-}
-
 .aboutMePortrait {
   /* Box Model */
-  max-width: 10rem;
+  max-width: 15rem;
 
   /* Visual */
   background-color: var(--main-color-light-faded);
@@ -42,36 +21,4 @@
   /* Visual */
   background-color: var(--main-color-dark-faded);
   border-color: var(--dark-accent);
-}
-
-.hobby {
-  /* Positioning */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  /* Box Model */
-  border-width: 0.5rem;
-  border-radius: 1rem;
-
-  /* Visual */
-  background-color: var(--main-color-light-faded);
-  border-color: var(--dark-accent);
-}
-
-
-
-
-/* TODO: Implement the hobbies skeleton. */
-
-.hobbyContent {
-
-}
-
-.hobbyText {
-
-}
-
-.hobbyImage {
-
 }
