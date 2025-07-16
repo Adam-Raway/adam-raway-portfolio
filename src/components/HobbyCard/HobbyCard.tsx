@@ -1,6 +1,17 @@
 // ContentCard.jsx
 import styles from "./HobbyCard.module.css"; // the generic layout styles
 import ContentCard from "components/ContentCard/ContentCard";
+import React from "react";
+
+interface HobbyCardProps {
+  hobbyName: string;
+  text: React.ReactNode;
+  imageSrc?: string;       // optional
+  alt?: string;            // optional, defaulted
+  orientation: 0 | 1;
+  textClass?: string;      // optional
+  imageClass?: string;     // optional
+}
 
 export default function HobbyCard({
   hobbyName,
@@ -10,7 +21,7 @@ export default function HobbyCard({
   orientation,
   textClass = "",
   imageClass = "",
-}) {
+}: HobbyCardProps) {
 
   return (
     <section className={styles.card}>

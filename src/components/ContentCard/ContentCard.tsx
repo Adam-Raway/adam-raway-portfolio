@@ -1,5 +1,15 @@
-// ContentCard.jsx
-import styles from "./ContentCard.module.css"; // the generic layout styles
+// ContentCard.tsx
+import styles from "./ContentCard.module.css";
+import React from "react";
+
+interface ContentCardProps {
+  text: React.ReactNode;
+  imageSrc?: string;
+  alt?: string;
+  orientation: 0 | 1;
+  textClass?: string;
+  imageClass?: string;
+}
 
 export default function ContentCard({
   text,
@@ -8,7 +18,7 @@ export default function ContentCard({
   orientation,
   textClass = "",
   imageClass = "",
-}) {
+}: ContentCardProps) {
   const directionClass = orientation === 1 ? styles["row-reverse"] : styles["row"];
   const cardClass = `${styles.card} ${directionClass}`;
 
