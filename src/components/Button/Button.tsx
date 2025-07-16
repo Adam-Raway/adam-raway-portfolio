@@ -8,9 +8,9 @@ interface ButtonProps {
   imageSrc?: string;
   alt?: string;
   onClick?: () => void;
-  type?: "button" | "submit" | "reset";
   className?: string;
   disabled?: boolean;
+  aria?: string;
 }
 
 export default function Button({
@@ -18,16 +18,16 @@ export default function Button({
   imageSrc,
   alt = "",
   onClick,
-  type = "button",
   className = "",
   disabled = false,
+  aria = "",
 }: ButtonProps) {
   return (
     <button
-      type={type}
       className={`${styles.button} ${className}`}
       onClick={onClick}
       disabled={disabled}
+      aria-label={aria}
     >
       {imageSrc ? (
         <img src={imageSrc} alt={alt} className={styles.image} />

@@ -1,4 +1,3 @@
-// ContentCard.tsx
 import styles from "./ContentCard.module.css";
 import React from "react";
 
