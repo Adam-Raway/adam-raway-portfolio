@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <>
       <main>
-        {/*
-          About Me
-        */}
+        <h1 className={aboutMeStyles.sectionHeader}>
+          About Me!
+        </h1>
         <ContentCard
           text={
             <>
@@ -32,33 +32,33 @@ export default function Home() {
           imageClass={aboutMeStyles.aboutMePortrait}
         />
         
-        {/*
-          Outside of Work
-        */}
-        <HobbyCard
-          hobbyName="Bouldering"
-          text="asdadsfasdfasfasfasdfadfsa asdfasf sa"
-          imageSrc="falling-with-style.png"
-          alt="Photo of me falling off of a bouldering wall."
-          orientation={0}
-        />
-
+        <h1 className={aboutMeStyles.sectionHeader}>
+          My hobbies include:
+        </h1>
         <Slideshow 
           slides={[
             <HobbyCard
+              key="Bouldering"
               hobbyName="Bouldering"
               text="asdadsfasdfasfasfasdfadfsa asdfasf sa"
               imageSrc="falling-with-style.png"
               alt="Photo of me falling off of a bouldering wall."
               orientation={0}
             />,
-            <p>Test 1</p>
+            <HobbyCard
+              key="Reading"
+              hobbyName="Reading"
+              text="asdadsfasdfasfasfasdfadfsa asdfasf sa"
+              imageSrc="falling-with-style.png"
+              alt="Photo of me falling off of a bouldering wall."
+              orientation={0}
+            />,
           ]}
         />
 
-        {/*
-          Recommended Pages
-        */}
+        <h1 className={aboutMeStyles.sectionHeader}>
+          Click here if you're a:
+        </h1>
         <section>
           
         </section>
