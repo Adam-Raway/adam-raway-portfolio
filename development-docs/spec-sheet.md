@@ -4,7 +4,7 @@
 
 ### Coding
 
-- [ ] Initialize Next.js project with TypeScript
+- [x] Initialize Next.js project with TypeScript
 - [ ] Set up project structure (pages, components, styles)
 - [ ] Configure routing for scroll-to-section navigation
 - [ ] Prepare mock data (JSON) for Projects and Publications
