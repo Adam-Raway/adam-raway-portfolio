@@ -2,6 +2,7 @@
 'use client';
 
 import { useRef, useEffect } from 'react';
+import style from './Starfield.module.css';
 
 const Starfield = () => {
   // Reference to the <canvas> element
@@ -96,7 +97,7 @@ const Starfield = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed top-0 left-0 w-full h-full z-0 pointer-events-none"
+      className={style.starfield}
     />
   );
 };

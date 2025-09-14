@@ -27,19 +27,19 @@
 
 ### Coding
 
-- [ ] 2.1 Implement sticky, semi-transparent navbar
-- [ ] 2.2 Add scroll-to-section functionality with highlighting
-- [ ] 2.3 Add icon buttons (light/dark toggle, etc.)
+- [x] 2.1 Implement sticky, semi-transparent navbar
+- [x] 2.2 Add scroll-to-section functionality with highlighting
+- [x] 2.3 Add icon buttons (light/dark toggle, etc.)
 
 ### Designing
 
-- [ ] 2.4 Style hover/focus states
-- [ ] 2.5 Ensure highlight animation for current section
-- [ ] 2.6 Apply semi-transparency and shadow for floating effect
+- [x] 2.4 Style hover/focus states
+- [] 2.5 Ensure highlight animation for current section
+- [x] 2.6 Apply semi-transparency and shadow for floating effect
 
 ### Writing
 
-- [ ] 2.7 Finalize section titles (About Me, Career, Skills, Portfolio, Contact)
+- [x] 2.7 Finalize section titles (About Me, Career, Skills, Portfolio, Contact)
 
 ---
 

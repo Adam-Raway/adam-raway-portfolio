@@ -1,1 +1,7 @@
 @import "./variables.css";
+
+:root {
+    --main-color: 51, 51, 51;
+    --accent-color: #004da4;
+    --text-color: #fff;
+}
