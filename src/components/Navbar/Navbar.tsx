@@ -1,27 +1,59 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import { Github, Linkedin, Mail } from "lucide-react";
 
+const sections = ["about", "career", "skills", "portfolio", "contact"];
+
 export default function Navbar() {
+  const [activeSection, setActiveSection] = useState<string>("");
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // find the first section that's visible
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      {
+        threshold: 0.6, // 60% of section must be visible
+      }
+    );
+
+    sections.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <nav className={styles.navbar}>
-      
-      {/* My Name or Brand */}
-      <p className={styles["navbar__name"]}>
-        Adam Raway
-      </p>
+      <p className={styles["navbar__name"]}>Adam Raway</p>
 
       {/* Internal navigation links */}
       <ul className={styles["navbar__internal-links"]}>
-        <li><a href="#about" className={styles["navbar__internal-link"]}>About</a></li>
-        <li><a href="#career" className={styles["navbar__internal-link"]}>Career</a></li>
-        <li><a href="#skills" className={styles["navbar__internal-link"]}>Skills</a></li>
-        <li><a href="#portfolio" className={styles["navbar__internal-link"]}>Portfolio</a></li>
-        <li><a href="#contact" className={styles["navbar__internal-link"]}>Contact</a></li>
+        {sections.map((section) => (
+          <li key={section}>
+            <a
+              href={`#${section}`}
+              className={`${styles["navbar__internal-link"]} ${
+                activeSection === section
+                  ? styles["navbar__internal-link--active"]
+                  : ""
+              }`}
+            >
+              {section.charAt(0).toUpperCase() + section.slice(1)}
+            </a>
+          </li>
+        ))}
       </ul>
 
-      {/* External links (as icons) */}
+      {/* External links */}
       <ul className={styles["navbar__external-links"]}>
         <li>
           <a
@@ -52,7 +84,6 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
-
     </nav>
   );
 }

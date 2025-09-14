@@ -5,8 +5,8 @@
 ### Coding
 
 - [x] 1.1 Initialize Next.js project with TypeScript
-- [ ] 1.2 Set up project structure (pages, components, styles)
-- [ ] 1.3 Configure routing for scroll-to-section navigation
+- [x] 1.2 Set up project structure (pages, components, styles)
+- [x] 1.3 Configure routing for scroll-to-section navigation
 - [ ] 1.4 Prepare mock data (JSON) for Projects and Publications
 - [ ] 1.5 Add environment config for future database connection
 - [ ] 1.6 Deploy initial version to Render
@@ -29,13 +29,13 @@
 
 - [x] 2.1 Implement sticky, semi-transparent navbar
 - [x] 2.2 Add scroll-to-section functionality with highlighting
-- [x] 2.3 Add icon buttons (light/dark toggle, etc.)
+- [x] 2.3 Add external nav icon buttons
 
 ### Designing
 
 - [x] 2.4 Style hover/focus states
-- [] 2.5 Ensure highlight animation for current section
-- [x] 2.6 Apply semi-transparency and shadow for floating effect
+- [x] 2.5 Ensure highlight animation for current section
+- [x] 2.6 Apply semi-transparency and/or shadow for floating effect
 
 ### Writing
 

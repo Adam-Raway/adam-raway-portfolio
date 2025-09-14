@@ -14,9 +14,9 @@
   border-radius: 1rem;
 
   /* visual */
-  background-color: rgba(var(--main-color), 0.75);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  background-color: rgba(var(--main-color), var(--background-opacity));
+  backdrop-filter: blur(var(--background-blur));
+  -webkit-backdrop-filter: blur(var(--background-blur));
   box-shadow: 0 4px 12px rgba(5, 4, 4, 0.25);
 
   /* typography */
@@ -27,6 +27,7 @@
 .navbar__name {
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: var(--title-font);
 }
 
 .navbar__internal-links {
@@ -39,13 +40,15 @@
 .navbar__internal-link {
   text-decoration: none;
   color: inherit;
-  transition: text-decoration 0.2s ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  border-bottom: 2px solid transparent;
 }
 
-.navbar__internal-link:hover {
-  text-decoration: underline;
-  cursor: pointer;
+.navbar__internal-link--active {
+  color: var(--accent-color);          /* highlight color */
+  border-bottom: 2px solid var(--accent-color);
 }
+
 
 .navbar__external-links {
   display: flex;
