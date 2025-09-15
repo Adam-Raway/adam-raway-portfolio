@@ -7,8 +7,8 @@
 - [x] 1.1 Initialize Next.js project with TypeScript
 - [x] 1.2 Set up project structure (pages, components, styles)
 - [x] 1.3 Configure routing for scroll-to-section navigation
-- [ ] 1.4 Prepare mock data (JSON) for Projects and Publications
-- [ ] 1.5 Add environment config for future database connection
+- ~~[ ] 1.4 Prepare mock data (JSON) for Projects and Publications~~
+- [x] 1.5 Add environment config for future database connection
 - [ ] 1.6 Deploy initial version to Render
 
 ### Designing
@@ -175,3 +175,4 @@
 - [ ] 9.2 Advanced star simulation for Contact section
 - [ ] 9.3 Add analytics (visitor count, clicks)
 - [ ] 9.4 Expand Projects/Publications dynamically from DB
+- [ ] 9.5 Add an app icon
