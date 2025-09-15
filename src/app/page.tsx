@@ -1,6 +1,12 @@
 import React from "react";
 import Navbar from "components/Navbar/Navbar";
 
+import aboutStyles from 'styles/sectionStyles/about.module.css';
+import careerStyles from 'styles/sectionStyles/career.module.css';
+import skillsStyles from 'styles/sectionStyles/skills.module.css';
+import portfolioStyles from 'styles/sectionStyles/portfolio.module.css';
+import contactStyles from 'styles/sectionStyles/contact.module.css';
+
 // Toggle this line on/off as needed
 // import "./styles/debugging.css";
 
@@ -11,14 +17,44 @@ export default function Home() {
     <>
       <Navbar />
 
-      <main style={{ minHeight: '', padding: '2rem' }} role="main">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is the home section. Use the navigation bar to explore different sections.</p>
+      <main role="main">
 
-        <section id="about" style={{ minHeight: '100vh', padding: '2rem' }} role="region" aria-labelledby="about-heading">
+        <section id="about" role="region" aria-labelledby="about-heading" className={aboutStyles["about-section"]}>
           <h1>About Me</h1>
-          <p>This is the About Me section.</p>
+          <p>This is the About Me section.
+
+            asdf
+            asdf
+            adfs
+            adsf
+            adfs sdafasdf asf asf as s 
+
+            ads
+          </p>
+          asdfasfd
+          asfd
+          asdf
+          afs
+          asdf
+          sdf
+          adfs
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <section id="career" style={{ minHeight: '100vh', padding: '2rem' }} role="region" aria-labelledby="career-heading">
           <h1>Career</h1>

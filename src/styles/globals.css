@@ -8,7 +8,7 @@
     --text-color: #fff;
 
     --background-opacity: 0.75;
-    --background-blur: 3px;
+    --background-blur: 2px;
 
     --title-font: 'Apple SD Gothic Neo', sans-serif;
     
@@ -26,10 +26,17 @@ p {
 }
 
 main {
-    margin-top: 80px;  /* leave room for navbar */
+  margin-top: 5rem;  /* leave room for navbar */
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+
+  width: 100%;
+  outline: 2px dashed hotpink; /* debug only */
 }
 section {
-  scroll-margin-top: 80px;  /* leave room for navbar */
+  scroll-margin-top: 5rem;  /* leave room for navbar */
 }
 html {
   scroll-behavior: smooth;
