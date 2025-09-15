@@ -46,10 +46,11 @@ export default function Home() {
             <div className={aboutStyles["about-section__topics"]}>
               <TopicToken text="Data Analytics" />
               <TopicToken text="AI/ML" />
+              <TopicToken text="LLM Tuning + Benchmarking" />
               <TopicToken text="Software Eng." />
               <TopicToken text="Computing Education" />
               <TopicToken text="Robotics" />
-              <TopicToken text="Web Dev" />
+              
             </div>
 
           </div>

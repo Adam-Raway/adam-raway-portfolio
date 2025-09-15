@@ -47,6 +47,7 @@
 
 .navbar__internal-link:hover {
   text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar__internal-link--active {
