@@ -5,6 +5,7 @@
 
     --main-color: 51, 51, 51;
     --accent-color: #ffbf00;
+    --accent-color-2: #8e03e479;
     --text-color: #fff;
 
     --background-opacity: 0.75;
@@ -26,17 +27,16 @@ p {
 }
 
 main {
-  margin-top: 5rem;  /* leave room for navbar */
+  margin-top: 4rem;  /* leave room for navbar */
   display: flex;
   flex-direction: column;
   gap: 5rem;
   align-items: center;
 
   width: 100%;
-  outline: 2px dashed hotpink; /* debug only */
 }
 section {
-  scroll-margin-top: 5rem;  /* leave room for navbar */
+  scroll-margin-top: 7rem;  /* leave room for navbar */
 }
 html {
   scroll-behavior: smooth;

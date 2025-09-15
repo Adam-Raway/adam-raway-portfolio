@@ -13,13 +13,13 @@
 
 ### Designing
 
-- [ ] 1.7 Decide on base layout (grid/flexbox strategy)
-- [ ] 1.8 Create placeholder color palette & typography tokens
-- [ ] 1.9 Set up global styles (spacing, shadows, etc.)
+- [x] 1.7 Decide on base layout (grid/flexbox strategy)
+- [x] 1.8 Create placeholder color palette & typography tokens
+- [x] 1.9 Set up global styles (spacing, shadows, etc.)
 
 ### Writing
 
-- [ ] 1.10 Draft initial placeholder content for all sections
+- [x] 1.10 Draft initial placeholder content for all sections
 
 ---
 
@@ -47,20 +47,20 @@
 
 ### Coding
 
-- [ ] 3.1 Create component with profile image, intro text, and quick links
-- [ ] 3.2 Add token-style buttons for interests
+- [x] 3.1 Create component with profile image, intro text, and quick links
+- [x] 3.2 Add token-style buttons for interests
 
 ### Designing
 
-- [ ] 3.3 Layout for image + text balance
-- [ ] 3.4 Styling for tokens (consistent across site)
-- [ ] 3.5 Hover animation for links
+- [x] 3.3 Layout for image + text balance
+- [x] 3.4 Styling for tokens (consistent across site)
+- ~~[ ] 3.5 Hover animation for links~~
 
 ### Writing
 
-- [ ] 3.6 Short greeting (1–2 sentences)
-- [ ] 3.7 Intro text about who you are
-- [ ] 3.8 Fill in interests list
+- [x] 3.6 Short greeting (1–2 sentences)
+- [x] 3.7 Intro text about who you are
+- [x] 3.8 Fill in interests list
 
 ---
 
