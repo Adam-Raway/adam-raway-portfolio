@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import 'styles/globals.css';
-import Navbar from "components/Navbar/Navbar";
-import Endcard from "components/Endcard/Endcard";
+
+import Starfield from "components/Starfield-Background/Starfield";
 
 export const metadata: Metadata = {
   title: "Adam Raway's Portfolio",
@@ -12,11 +12,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <Navbar></Navbar>
+        <Starfield />
         <main>
           {children}
         </main>
-        <Endcard></Endcard>
       </body>
     </html>
   );

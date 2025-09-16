@@ -1,0 +1,28 @@
+.topic-token {
+  /* positioning */
+  display: inline-flex;
+  align-items: center;
+
+  /* box model */
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem; 
+  border: 0.2rem solid;
+
+  /* typography */
+  font-size: 0.75rem; 
+  font-weight: 500;  
+
+  /* visual */
+  background-color: #f3f4f6; 
+  color: rgba(var(--main-color), 1);           
+  transition: all 0.2s ease-in-out;
+
+  /* dark mode */
+  /* You can scope with :global(.dark) if your setup uses dark mode */
+}
+
+/* hover state */
+.topic-token:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}

@@ -1,25 +1,25 @@
-# Portfolio Website Spec Sheet + Task Checklist
+# Portfolio Website Task Checklist (Numbered)
 
 ## Setup & Deployment
 
 ### Coding
 
-- [ ] Initialize Next.js project with TypeScript
-- [ ] Set up project structure (pages, components, styles)
-- [ ] Configure routing for scroll-to-section navigation
-- [ ] Prepare mock data (JSON) for Projects and Publications
-- [ ] Add environment config for future database connection
-- [ ] Deploy initial version to Render
+- [x] 1.1 Initialize Next.js project with TypeScript
+- [x] 1.2 Set up project structure (pages, components, styles)
+- [x] 1.3 Configure routing for scroll-to-section navigation
+- ~~[ ] 1.4 Prepare mock data (JSON) for Projects and Publications~~
+- [x] 1.5 Add environment config for future database connection
+- [ ] 1.6 Deploy initial version to Render
 
 ### Designing
 
-- [ ] Decide on base layout (grid/flexbox strategy)
-- [ ] Create placeholder color palette & typography tokens
-- [ ] Set up global styles (spacing, shadows, etc.)
+- [x] 1.7 Decide on base layout (grid/flexbox strategy)
+- [x] 1.8 Create placeholder color palette & typography tokens
+- [x] 1.9 Set up global styles (spacing, shadows, etc.)
 
 ### Writing
 
-- [ ] Draft initial placeholder content for all sections
+- [x] 1.10 Draft initial placeholder content for all sections
 
 ---
 
@@ -27,19 +27,19 @@
 
 ### Coding
 
-- [ ] Implement sticky, semi-transparent navbar
-- [ ] Add scroll-to-section functionality with highlighting
-- [ ] Add icon buttons (light/dark toggle, etc.)
+- [x] 2.1 Implement sticky, semi-transparent navbar
+- [x] 2.2 Add scroll-to-section functionality with highlighting
+- [x] 2.3 Add external nav icon buttons
 
 ### Designing
 
-- [ ] Style hover/focus states
-- [ ] Ensure highlight animation for current section
-- [ ] Apply semi-transparency and shadow for floating effect
+- [x] 2.4 Style hover/focus states
+- [x] 2.5 Ensure highlight animation for current section
+- [x] 2.6 Apply semi-transparency and/or shadow for floating effect
 
 ### Writing
 
-- [ ] Finalize section titles (About Me, Career, Skills, Portfolio, Contact)
+- [x] 2.7 Finalize section titles (About Me, Career, Skills, Portfolio, Contact)
 
 ---
 
@@ -47,20 +47,20 @@
 
 ### Coding
 
-- [ ] Create component with profile image, intro text, and quick links
-- [ ] Add token-style buttons for interests
+- [x] 3.1 Create component with profile image, intro text, and quick links
+- [x] 3.2 Add token-style buttons for interests
 
 ### Designing
 
-- [ ] Layout for image + text balance
-- [ ] Styling for tokens (consistent across site)
-- [ ] Hover animation for links
+- [x] 3.3 Layout for image + text balance
+- [x] 3.4 Styling for tokens (consistent across site)
+- ~~[ ] 3.5 Hover animation for links~~
 
 ### Writing
 
-- [ ] Short greeting (1–2 sentences)
-- [ ] Intro text about who you are
-- [ ] Fill in interests list
+- [x] 3.6 Short greeting (1–2 sentences)
+- [x] 3.7 Intro text about who you are
+- [x] 3.8 Fill in interests list
 
 ---
 
@@ -68,20 +68,20 @@
 
 ### Coding
 
-- [ ] Implement timeline component with icons
-- [ ] Add ability to switch to “Education” view
-- [ ] Fetch data from mock JSON
+- [ ] 4.1 Implement timeline component with icons
+- [ ] 4.2 Add ability to switch to “Education” view
+- [ ] 4.3 Fetch data from mock JSON
 
 ### Designing
 
-- [ ] Roman-style layout with clean visual hierarchy
-- [ ] Icons for each entry
-- [ ] Smooth animation for expanding/swapping panels
+- [ ] 4.4 Roman-style layout with clean visual hierarchy
+- [ ] 4.5 Icons for each entry
+- [ ] 4.6 Smooth animation for expanding/swapping panels
 
 ### Writing
 
-- [ ] Write 4 highlighted experiences (roles, dates, short descriptions)
-- [ ] Write education info (relevant courses, GPA, clubs)
+- [ ] 4.7 Write 4 highlighted experiences (roles, dates, short descriptions)
+- [ ] 4.8 Write education info (relevant courses, GPA, clubs)
 
 ---
 
@@ -89,19 +89,19 @@
 
 ### Coding
 
-- [ ] Build “Skills Tree” component (root → categories → skills)
-- [ ] Implement expandable/collapsible layers
+- [ ] 5.1 Build “Skills Tree” component (root → categories → skills)
+- [ ] 5.2 Implement expandable/collapsible layers
 
 ### Designing
 
-- [ ] Define distinct color palette for parent/child buttons
-- [ ] Ensure consistent button shapes & transitions
-- [ ] Add hover descriptions
+- [ ] 5.3 Define distinct color palette for parent/child buttons
+- [ ] 5.4 Ensure consistent button shapes & transitions
+- [ ] 5.5 Add hover descriptions
 
 ### Writing
 
-- [ ] List all technical & professional skills
-- [ ] Add one-line description/example for each skill
+- [ ] 5.6 List all technical & professional skills
+- [ ] 5.7 Add one-line description/example for each skill
 
 ---
 
@@ -109,21 +109,21 @@
 
 ### Coding
 
-- [ ] Implement card-based grid with scrollable carousel if >3 items
-- [ ] Add logic for project vs publication card types
-- [ ] Load mock JSON as initial data source
+- [ ] 6.1 Implement card-based grid with scrollable carousel if >3 items
+- [ ] 6.2 Add logic for project vs publication card types
+- [ ] 6.3 Load mock JSON as initial data source
 
 ### Designing
 
-- [ ] Card layout (image, title, description)
-- [ ] Hover effect to indicate clickability
-- [ ] Ensure consistent sizing, spacing, shadows
+- [ ] 6.4 Card layout (image, title, description)
+- [ ] 6.5 Hover effect to indicate clickability
+- [ ] 6.6 Ensure consistent sizing, spacing, shadows
 
 ### Writing
 
-- [ ] Add 2–3 projects (images, titles, descriptions, tags)
-- [ ] Add 2–3 publications (titles, sublabels: journal/issue/blog)
-- [ ] Add links if applicable
+- [ ] 6.7 Add 2–3 projects (images, titles, descriptions, tags)
+- [ ] 6.8 Add 2–3 publications (titles, sublabels: journal/issue/blog)
+- [ ] 6.9 Add links if applicable
 
 ---
 
@@ -131,22 +131,22 @@
 
 ### Coding
 
-- [ ] Build “console” style interface with buttons for contact methods
-- [ ] Add functional links (email, LinkedIn, GitHub)
-- [ ] Implement big pause/play button (toggles animation state)
-- [ ] **Stretch/Bonus:** Three-Body Problem star animation
+- [ ] 7.1 Build “console” style interface with buttons for contact methods
+- [ ] 7.2 Add functional links (email, LinkedIn, GitHub)
+- [ ] 7.3 Implement big pause/play button (toggles animation state)
+- [ ] 7.4 **Stretch/Bonus:** Three-Body Problem star animation
 
 ### Designing
 
-- [ ] Create console aesthetic (dark theme, terminal font)
-- [ ] Style buttons as “commands”
-- [ ] Smooth transitions between states
+- [ ] 7.5 Create console aesthetic (dark theme, terminal font)
+- [ ] 7.6 Style buttons as “commands”
+- [ ] 7.7 Smooth transitions between states
 
 ### Writing
 
-- [ ] Short “Get in Touch” blurb
-- [ ] Add contact info (email, GitHub, LinkedIn)
-- [ ] Add optional witty console text
+- [ ] 7.8 Short “Get in Touch” blurb
+- [ ] 7.9 Add contact info (email, GitHub, LinkedIn)
+- [ ] 7.10 Add optional witty console text
 
 ---
 
@@ -154,24 +154,25 @@
 
 ### Coding
 
-- [ ] Add footer with name + quick links back to sections
-- [ ] Include copyright text
+- [ ] 8.1 Add footer with name + quick links back to sections
+- [ ] 8.2 Include copyright text
 
 ### Designing
 
-- [ ] Keep minimal, clean aesthetic
-- [ ] Match navbar styling
+- [ ] 8.3 Keep minimal, clean aesthetic
+- [ ] 8.4 Match navbar styling
 
 ### Writing
 
-- [ ] Finalize quick link labels
-- [ ] Add copyright statement
+- [ ] 8.5 Finalize quick link labels
+- [ ] 8.6 Add copyright statement
 
 ---
 
 ## Future Enhancements
 
-- [ ] Replace mock JSON with real database integration (tech TBD)
-- [ ] Advanced star simulation for Contact section
-- [ ] Add analytics (visitor count, clicks)
-- [ ] Expand Projects/Publications dynamically from DB
+- [ ] 9.1 Replace mock JSON with real database integration (tech TBD)
+- [ ] 9.2 Advanced star simulation for Contact section
+- [ ] 9.3 Add analytics (visitor count, clicks)
+- [ ] 9.4 Expand Projects/Publications dynamically from DB
+- [ ] 9.5 Add an app icon
